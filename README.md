@@ -16,3 +16,30 @@ In this section, we will discuss all features of the console application
 | Show the average salary for the department | Show the average salary for the department {department_name} |                            The average salary of {department_name} is {average_salary}                            |
 | Show count of employee for the department  |         Show count of employee for {department_name}         |                                                 {employee_count}                                                  |
 | Global search by name                      |                 Global search by {template}                  |                                           {lector_name}, {lector_name}                                            |
+
+
+## Examples of commands
+The default data such as departments and lectors was added for comfortable testing the application.
+So, you can enter these commands for getting information:
+
+* Who is head of department {department_name}:
+  ```bash 
+    Who is head of department Computer Science
+  ```
+* Show {department_name} statistics:
+  ```bash
+    Show Physics statistics
+  ```
+* Show the average salary for the department {department_name}:
+  ```bash
+    Show the average salary for the department Mathematics
+  ```
+* Show count of employee for {department_name}:
+  ```bash
+    Show count of employee for Physics
+  ```
+* Global search by {template}:
+  ```bash
+    Global search by van
+  ```
+TIPS: Please, try not to make mistakes in your requests since each redundant white space or skipped letter can result in an exception.
