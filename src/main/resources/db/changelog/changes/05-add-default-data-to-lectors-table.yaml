@@ -1,0 +1,89 @@
+databaseChangeLog:
+  - changeSet:
+      id: add-default-data-to-lectors-table
+      author: ivan-diatliuk
+      changes:
+        - insert:
+            tableName: lectors
+            columns:
+              - column:
+                  name: name
+                  value: 'Jane Doe'
+              - column:
+                  name: degree
+                  value: 'ASSOCIATE_PROFESSOR'
+              - column:
+                  name: salary
+                  valueNumeric: '2000'
+        - insert:
+            tableName: lectors
+            columns:
+              - column:
+                  name: name
+                  value: 'David Johnson'
+              - column:
+                  name: degree
+                  value: 'ASSISTANT'
+              - column:
+                  name: salary
+                  valueNumeric: '1500'
+        - insert:
+            tableName: lectors
+            columns:
+              - column:
+                  name: name
+                  value: 'Susan Williams'
+              - column:
+                  name: degree
+                  value: 'PROFESSOR'
+              - column:
+                  name: salary
+                  valueNumeric: '3000'
+        - insert:
+            tableName: lectors
+            columns:
+              - column:
+                  name: name
+                  value: 'Ivan Petrenko'
+              - column:
+                  name: degree
+                  value: 'PROFESSOR'
+              - column:
+                  name: salary
+                  valueNumeric: '3000'
+        - insert:
+            tableName: lectors
+            columns:
+              - column:
+                  name: name
+                  value: 'Petro Ivanov'
+              - column:
+                  name: degree
+                  value: 'ASSISTANT'
+              - column:
+                  name: salary
+                  valueNumeric: '1500'
+        - insert:
+            tableName: lectors
+            columns:
+              - column:
+                  name: name
+                  value: 'Michael Brown'
+              - column:
+                  name: degree
+                  value: 'PROFESSOR'
+              - column:
+                  name: salary
+                  valueNumeric: '3000'
+        - insert:
+            tableName: lectors
+            columns:
+              - column:
+                  name: name
+                  value: 'Emily Davis'
+              - column:
+                  name: degree
+                  value: 'ASSOCIATE_PROFESSOR'
+              - column:
+                  name: salary
+                  valueNumeric: '2000'
