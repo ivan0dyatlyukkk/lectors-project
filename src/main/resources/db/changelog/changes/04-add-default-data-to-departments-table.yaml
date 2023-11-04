@@ -1,0 +1,32 @@
+databaseChangeLog:
+  - changeSet:
+      id: add-default-data-to-departments-table
+      author: ivan-diatliuk
+      changes:
+        - insert:
+            tableName: departments
+            columns:
+              - column:
+                  name: name
+                  value: 'Computer Science'
+              - column:
+                  name: head_of_department
+                  value: 'John Smith'
+        - insert:
+            tableName: departments
+            columns:
+              - column:
+                  name: name
+                  value: 'Mathematics'
+              - column:
+                  name: head_of_department
+                  value: 'David Miller'
+        - insert:
+            tableName: departments
+            columns:
+              - column:
+                  name: name
+                  value: 'Physics'
+              - column:
+                  name: head_of_department
+                  value: 'Michael Anderson'
